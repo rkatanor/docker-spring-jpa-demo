@@ -6,17 +6,12 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class JpaRepoDemoApplication extends SpringBootServletInitializer {
+public class JpaRepoDemoApplication  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JpaRepoDemoApplication.class, args);
 	}
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		// TODO Auto-generated method stub
-		return builder.sources(JpaRepoDemoApplication.class);
-		
-	}
+	
 
 }

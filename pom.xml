@@ -12,6 +12,7 @@
 	<artifactId>jpa-repo-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jpa-repo-demo</name>
+	<packaging>jar</packaging>
 	<description>project for JPA repository</description>
 
 	<properties>
@@ -43,7 +44,7 @@
 	<build>
 	
 		<plugins>
-			<plugin>
+		<!-- 	<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
@@ -54,7 +55,7 @@
 					<password>admin</password>
 					<path>/springjpademo</path>
 				</configuration>
-			</plugin>
+			</plugin> -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
